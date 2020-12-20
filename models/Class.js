@@ -17,6 +17,4 @@ const Class = sequelize.define("Class", {
     paranoid:false
 });
 
-Class.hasMany(Student);
-
 module.exports = Class;
